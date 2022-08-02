@@ -7,9 +7,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp.Capitulo01.Sintaxe",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharp.Capitulo01.ValeTransporte", "CSharp.Capitulo01.ValeTransporte\CSharp.Capitulo01.ValeTransporte.csproj", "{53DAB2E1-22D2-4137-8FF7-FD18874C80B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp.Capitulo02.GeradorSenha", "CSharp.Capitulo02.GeradorSenha\CSharp.Capitulo02.GeradorSenha.csproj", "{2F52F822-B4F2-4228-BF9D-2B7C23C45437}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharp.Capitulo02.GeradorSenha", "CSharp.Capitulo02.GeradorSenha\CSharp.Capitulo02.GeradorSenha.csproj", "{2F52F822-B4F2-4228-BF9D-2B7C23C45437}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp.Capitulo02.EstruturasControle.Testes", "CSharp.Capitulo02.EstruturasControle.Testes\CSharp.Capitulo02.EstruturasControle.Testes.csproj", "{EBD8A2DB-D24C-4E77-B6CE-55A844E8106D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharp.Capitulo02.EstruturasControle.Testes", "CSharp.Capitulo02.EstruturasControle.Testes\CSharp.Capitulo02.EstruturasControle.Testes.csproj", "{EBD8A2DB-D24C-4E77-B6CE-55A844E8106D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FinTech", "FinTech", "{AC77AFD5-AD01-42FF-967F-6269E557B272}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fintech.Dominio", "Fintech.Dominio\Fintech.Dominio.csproj", "{F4EC5F9C-32ED-4DBD-99E4-BD4987BB2E88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fintech.Correntista.Wpf", "Fintech.Correntista.Wpf\Fintech.Correntista.Wpf.csproj", "{2CD09521-93E1-4D08-B459-F709A7676B61}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,9 +39,21 @@ Global
 		{EBD8A2DB-D24C-4E77-B6CE-55A844E8106D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EBD8A2DB-D24C-4E77-B6CE-55A844E8106D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EBD8A2DB-D24C-4E77-B6CE-55A844E8106D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4EC5F9C-32ED-4DBD-99E4-BD4987BB2E88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4EC5F9C-32ED-4DBD-99E4-BD4987BB2E88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4EC5F9C-32ED-4DBD-99E4-BD4987BB2E88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4EC5F9C-32ED-4DBD-99E4-BD4987BB2E88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CD09521-93E1-4D08-B459-F709A7676B61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CD09521-93E1-4D08-B459-F709A7676B61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CD09521-93E1-4D08-B459-F709A7676B61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CD09521-93E1-4D08-B459-F709A7676B61}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F4EC5F9C-32ED-4DBD-99E4-BD4987BB2E88} = {AC77AFD5-AD01-42FF-967F-6269E557B272}
+		{2CD09521-93E1-4D08-B459-F709A7676B61} = {AC77AFD5-AD01-42FF-967F-6269E557B272}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6D2AC05E-47E6-47F7-9FA2-938045AA4AA6}
